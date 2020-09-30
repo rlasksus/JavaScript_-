@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatiable" content="ie=edge">
+    </head>
+    <body>
+        <h2>연습문제 2-1</h2>
+        <script>
+            var input = prompt("숫자를 입력하시오.");
+            var int = Number(input);
+            var a = 0;
+            
+            for(var i=1; i<=int; i++) {
+                if(int%i === 0) {
+                    a++;
+                }
+            }
+            if(a === 2) {
+                console.log("소수입니다.");
+            }   else    {
+                    console.log("소수가 아닙니다.");
+            }
+        </script>
+    </body>
+</html>
